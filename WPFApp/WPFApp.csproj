@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Abstract\Abstract.csproj" />
+    <ProjectReference Include="..\FakeWiFiScaner\FakeWiFiScaner.csproj" />
+    <ProjectReference Include="..\PDFPrinter\PDFPrinter.csproj" />
+    <ProjectReference Include="..\SQLite\SQLite.csproj" />
+    <ProjectReference Include="..\WiFiScaner\WiFiScaner.csproj" />
+  </ItemGroup>
+
+</Project>

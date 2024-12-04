@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <BooleanToVisibilityConverter x:Key="BoolToVisibility"/>
+    <x:Array x:Key="listServer" Type="sys:String">
+        <sys:String>(local)</sys:String>
+        <sys:String>localhost</sys:String>
+        <sys:String>.</sys:String>
+        <sys:String>./SQLEXPRESS</sys:String>
+    </x:Array>
+    <x:Array x:Key="enamApplicationIntent" Type="sys:String">
+        <sys:String>ReadOnly</sys:String>
+        <sys:String>ReadWrite</sys:String>
+    </x:Array>
+</ResourceDictionary>

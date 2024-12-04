@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFApp", "WPFApp\WPFApp.csproj", "{34B1F37B-D72B-47A2-8682-C0B25B2D71EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract", "Abstract\Abstract.csproj", "{7408A6EE-6BE9-4939-80E2-0C509BF53996}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeWiFiScaner", "FakeWiFiScaner\FakeWiFiScaner.csproj", "{19C8CD7C-B5A2-4499-B939-4D582B1F7215}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WiFiScaner", "WiFiScaner\WiFiScaner.csproj", "{75DF130A-4A24-44D2-9864-5A56EA7ED24C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLite", "SQLite\SQLite.csproj", "{33324BA2-7B77-495E-83C6-D5526E91BB54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFPrinter", "PDFPrinter\PDFPrinter.csproj", "{90FA77E4-51FC-453B-8150-E11985E2F3D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34B1F37B-D72B-47A2-8682-C0B25B2D71EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34B1F37B-D72B-47A2-8682-C0B25B2D71EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34B1F37B-D72B-47A2-8682-C0B25B2D71EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34B1F37B-D72B-47A2-8682-C0B25B2D71EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7408A6EE-6BE9-4939-80E2-0C509BF53996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7408A6EE-6BE9-4939-80E2-0C509BF53996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7408A6EE-6BE9-4939-80E2-0C509BF53996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7408A6EE-6BE9-4939-80E2-0C509BF53996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C8CD7C-B5A2-4499-B939-4D582B1F7215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C8CD7C-B5A2-4499-B939-4D582B1F7215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C8CD7C-B5A2-4499-B939-4D582B1F7215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C8CD7C-B5A2-4499-B939-4D582B1F7215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DF130A-4A24-44D2-9864-5A56EA7ED24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DF130A-4A24-44D2-9864-5A56EA7ED24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DF130A-4A24-44D2-9864-5A56EA7ED24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DF130A-4A24-44D2-9864-5A56EA7ED24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33324BA2-7B77-495E-83C6-D5526E91BB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33324BA2-7B77-495E-83C6-D5526E91BB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33324BA2-7B77-495E-83C6-D5526E91BB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33324BA2-7B77-495E-83C6-D5526E91BB54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90FA77E4-51FC-453B-8150-E11985E2F3D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90FA77E4-51FC-453B-8150-E11985E2F3D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90FA77E4-51FC-453B-8150-E11985E2F3D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90FA77E4-51FC-453B-8150-E11985E2F3D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C8EEE3B-57C9-4B32-A593-638E175B346A}
+	EndGlobalSection
+EndGlobal
